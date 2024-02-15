@@ -41,7 +41,7 @@ export default function TableAvailable({ data }) {
         {sortedData.map((item, index) => (
           <tr key={index}>
             <td>{item.opis}</td>
-            <td>{item.koda}</td>k
+            <td>{item.koda}</td>
             <td>{item.kategorija}</td>
             <td>{item.pokvarjeno ? 'Pokvarjeno' : 'Brezhibno'}</td>
           </tr>
